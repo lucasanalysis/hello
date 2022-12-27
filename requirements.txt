@@ -13,3 +13,4 @@ bokeh
 deepchecks
 pandas
 numpy
+streamlit-pandas-profiling
