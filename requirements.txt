@@ -6,3 +6,6 @@ lime
 tqdm
 xgboost
 lightgbm
+pytorch_grad_cam
+shap
+streamlit_pandas_profiling
