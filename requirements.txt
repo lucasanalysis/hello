@@ -16,6 +16,7 @@ numpy
 streamlit-pandas-profiling
 streamlit-shap
 tensorflow
-opencv-headless
+opencv-python-headless
 clip
-grad-cam
+#grad-cam
+keras
