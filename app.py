@@ -9,7 +9,10 @@ import lime
 import tqdm
 import xgboost
 import lightgbm
-packages_list=['matplotlib','torch','pandas_profiling','skimage','lime','tqdm','xgboost','lightgbm']
+import streamlit_pandas_profiling
+import shap
+import pytorch_grad_cam
+packages_list=['matplotlib','torch','pandas_profiling','skimage','lime','tqdm','xgboost','lightgbm','pytorch_grad_cam','shap','streamlit_pandas_profiling']
 for i in packages_list:
   if i in sys.modules.keys():
     st.write(i)
