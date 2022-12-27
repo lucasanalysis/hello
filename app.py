@@ -16,9 +16,9 @@ import openTSNE
 import deepchecks
 import pandas
 import numpy
-
+import streamlit_pandas_profiling
 packages_list=['matplotlib','torch','pandas_profiling','skimage','lime','tqdm','xgboost','lightgbm','openTSNE','shap','bokeh','torchvision','deepchecks',
-              'pandas','numpy','base64','PIL']
+              'pandas','numpy','base64','PIL','streamlit_pandas_profiling']
 for i in packages_list:
   if i in sys.modules.keys():
     st.write(i)
