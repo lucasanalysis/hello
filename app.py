@@ -14,7 +14,11 @@ import bokeh
 import shap
 import openTSNE
 import deepchecks
-packages_list=['matplotlib','torch','pandas_profiling','skimage','lime','tqdm','xgboost','lightgbm','openTSNE','shap','bokeh','torchvision','deepchecks']
+import pandas
+import numpy
+
+packages_list=['matplotlib','torch','pandas_profiling','skimage','lime','tqdm','xgboost','lightgbm','openTSNE','shap','bokeh','torchvision','deepchecks',
+              'pandas','numpy','base64','PIL']
 for i in packages_list:
   if i in sys.modules.keys():
     st.write(i)
