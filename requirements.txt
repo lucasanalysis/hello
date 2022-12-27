@@ -6,6 +6,6 @@ lime
 tqdm
 xgboost
 lightgbm
-pytorch_grad_cam
+grad-cam
 shap
 
