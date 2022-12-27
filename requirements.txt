@@ -1,7 +1,6 @@
 matplotlib
 torch
 pandas_profiling
-keras
-skimage
+scikit-image
 lime
 cv2
