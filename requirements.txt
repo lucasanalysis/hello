@@ -3,4 +3,7 @@ torch
 pandas_profiling
 scikit-image
 lime
-opencv
+clip
+tqdm
+xgboost
+lightgbm
