@@ -3,4 +3,4 @@ torch
 pandas_profiling
 scikit-image
 lime
-cv2
+opencv
