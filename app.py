@@ -1,3 +1,3 @@
 import streamlit as st
-import matplotib
+import matplotlib
 st.write('hello world')
