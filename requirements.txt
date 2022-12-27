@@ -6,6 +6,7 @@ lime
 tqdm
 xgboost
 lightgbm
-grad-cam
 shap
-
+openTSNE
+PIL
+torchvision
