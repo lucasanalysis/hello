@@ -10,3 +10,4 @@ shap
 openTSNE
 torchvision
 bokeh
+deepchecks
