@@ -21,9 +21,9 @@ import streamlit_shap
 import tensorflow
 import cv2
 import clip
-# import pytorch_grad_cam
+import pytorch_grad_cam
 packages_list=['matplotlib','torch','pandas_profiling','skimage','lime','tqdm','xgboost','lightgbm','openTSNE','shap','bokeh','torchvision','deepchecks',
-              'pandas','numpy','base64','PIL','streamlit_pandas_profiling','streamlit_shap','tensorflow','cv2','clip']
+              'pandas','numpy','base64','PIL','streamlit_pandas_profiling','streamlit_shap','tensorflow','cv2','clip','pytorch_grad_cam']
 for i in packages_list:
   if i in sys.modules.keys():
     st.write(i)
