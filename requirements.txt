@@ -1,3 +1,7 @@
 matplotlib
 torch
 pandas_profiling
+keras
+skimage
+lime
+cv2
