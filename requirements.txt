@@ -18,4 +18,4 @@ streamlit-shap
 tensorflow
 opencv-python-headless
 clip
-#grad-cam
+grad-cam
