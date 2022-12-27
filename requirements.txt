@@ -11,3 +11,5 @@ openTSNE
 torchvision
 bokeh
 deepchecks
+pandas
+numpy
