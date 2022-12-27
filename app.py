@@ -1,10 +1,10 @@
 import streamlit as st
 import matplotlib
 import torch
-import pandasProfiling
+import pandas_profiling
 st.write('hello world')
 import sys
-packages_list=['matplotlib','torch','pandasProfiling']
+packages_list=['matplotlib','torch','pandas_profiling']
 for i in packages_list:
   if i in sys.modules.keys():
     st.write(i)
