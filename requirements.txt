@@ -14,3 +14,4 @@ deepchecks
 pandas
 numpy
 streamlit-pandas-profiling
+streamlit-shap
