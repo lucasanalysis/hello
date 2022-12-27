@@ -3,7 +3,6 @@ torch
 pandas_profiling
 scikit-image
 lime
-clip
 tqdm
 xgboost
 lightgbm
